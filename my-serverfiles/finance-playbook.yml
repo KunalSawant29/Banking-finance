@@ -13,4 +13,4 @@
     command : sudo systemctl start docker
 
   - name : Run the Bank application
-    command: sudo docker run -dt -p 8084:8081 cbabu85/bankingfinance:4.0
+    command: sudo docker run -dt -p 8084:8081 kunalsawant29/bankingfinance:1.0
