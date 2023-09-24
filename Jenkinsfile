@@ -59,10 +59,10 @@ pipeline {
                 }
             }
         }
-        stage ('Deploy into test-server using Ansible') {
+    /*    stage ('Deploy into test-server using Ansible') {
            steps {
              ansiblePlaybook credentialsId: 'myownkey', disableHostKeyChecking: true, installation: 'ansible', inventory: 'inventory', playbook: 'finance-playbook.yml'
            }
-               }
+               }/*
      }
 }
