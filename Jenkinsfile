@@ -63,6 +63,6 @@ pipeline {
            steps {
              ansiblePlaybook credentialsId: 'myownkey', disableHostKeyChecking: true, installation: 'ansible', inventory: 'inventory', playbook: 'finance-playbook.yml'
            }
-               }/*
+               }*/
      }
 }
